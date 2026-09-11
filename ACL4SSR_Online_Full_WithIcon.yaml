@@ -80,7 +80,7 @@ proxy-groups:
       - 美国节点
       - 韩国节点
       - 手动切换
-      - SOOP
+      - 谷歌节点
       - DIRECT
   - name: 奈飞视频
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Netflix.png
@@ -298,6 +298,13 @@ proxy-groups:
     type: url-test
     interval: 300
     tolerance: 50
+  - name: 谷歌节点
+    icon: 
+    include-all: true
+    filter: (?i)Google
+    type: url-test
+    interval: 300
+    tolerance: 50
   - name: Soop直播
     icon: https://cdn.jsdelivr.net/gh/dl185/TV@main/SOOP.png
     type: select
@@ -340,6 +347,7 @@ proxy-groups:
       - 香港节点
       - 日本节点
       - 美国节点
+      - 谷歌节点
       - 台湾节点
       - 狮城节点
       - 韩国节点
@@ -573,6 +581,7 @@ rule-providers:
 
 rules:
   - "RULE-SET,Soop,Soop直播"
+  - "RULE-SET,Google,谷歌节点"
   - "RULE-SET,LocalAreaNetwork,全球直连"
   - "RULE-SET,UnBan,全球直连"
   - "RULE-SET,BanAD,广告拦截"
