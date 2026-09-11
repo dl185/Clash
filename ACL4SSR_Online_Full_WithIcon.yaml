@@ -20,7 +20,7 @@ proxy-groups:
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Auto.png
     type: url-test
     include-all: true
-    exclude-filter: "(?i)Google"
+    filter: "(?i)^(?!.*Google).*$"
     interval: 300
     tolerance: 10
   - name: 电报消息
