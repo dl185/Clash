@@ -299,7 +299,7 @@ proxy-groups:
     interval: 300
     tolerance: 50
   - name: 谷歌节点
-    icon: 
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Google_Search.png 
     include-all: true
     filter: (?i)Google
     type: url-test
