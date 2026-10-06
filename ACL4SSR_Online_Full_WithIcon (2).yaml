@@ -82,6 +82,15 @@ proxy-groups:
       - 韩国节点
       - 手动切换
       - DIRECT
+  - name: Instagram
+    type: select
+    proxies:
+      - 节点选择
+      - 香港节点
+      - 日本节点
+      - 狮城节点
+      - 台湾节点
+      - 美国节点
   - name: 奈飞视频
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Netflix.png
     type: select
@@ -126,6 +135,12 @@ proxy-groups:
       - 韩国节点
       - 手动切换
       - DIRECT
+  - name: Soop直播
+    icon: https://cdn.jsdelivr.net/gh/dl185/TV@main/SOOP.png
+    type: select
+    proxies:
+      - DIRECT
+      - 手动切换
   - name: 国内媒体
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/DomesticMedia.png
     type: select
@@ -304,12 +319,6 @@ proxy-groups:
     url: "https://www.gstatic.com/generate_204"
     interval: 300
     tolerance: 50
-  - name: Soop直播
-    icon: https://cdn.jsdelivr.net/gh/dl185/TV@main/SOOP.png
-    type: select
-    proxies:
-      - DIRECT
-      - 手动切换
   - name: 奈飞节点
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Netflix.png
     include-all: true
@@ -327,10 +336,12 @@ proxy-groups:
       - OpenAi
       - AI-UNHK
       - 油管视频
+      - Instagram
       - 奈飞视频
       - 巴哈姆特
       - 哔哩哔哩
       - 国外媒体
+      - Soop
       - 国内媒体
       - 谷歌FCM
       - 微软Bing
