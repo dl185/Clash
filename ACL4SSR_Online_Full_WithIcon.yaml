@@ -362,11 +362,11 @@ rule-providers:
   Instagram:
     type: http
     behavior: classical
-    format: yaml
+    format: list
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Instagram/Instagram.list
     path: ./ruleset/instagram.list
     interval: 86400
-    size-limit: 0
+    format: text
   LocalAreaNetwork:
     url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/LocalAreaNetwork.list
     path: ./ruleset/LocalAreaNetwork.list
