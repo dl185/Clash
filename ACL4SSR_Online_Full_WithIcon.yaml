@@ -586,8 +586,8 @@ rule-providers:
 
 rules:
   - "RULE-SET,Soop,Soop直播"
-  - "RULE-SET,Instagram,节点选择
-  - RULE-SET,LocalAreaNetwork,全球直连"
+  -  RULE-SET,Instagram,Instagram
+  -  RULE-SET,LocalAreaNetwork,全球直连"
   - "RULE-SET,UnBan,全球直连"
   - "RULE-SET,BanAD,广告拦截"
   - "RULE-SET,BanProgramAD,应用净化"
