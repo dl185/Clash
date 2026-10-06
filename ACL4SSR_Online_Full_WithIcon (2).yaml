@@ -88,6 +88,8 @@ proxy-groups:
       - 节点选择
       - 香港节点
       - 日本节点
+      - 狮城节点
+      - 台湾节点
       - 美国节点
   - name: 奈飞视频
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Netflix.png
