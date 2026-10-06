@@ -359,7 +359,7 @@ rule-providers:
     type: http
     behavior: classical
     url: "https://raw.githubusercontent.com/KeterCo/ClashRules/refs/heads/main/Soop.list"
-    path: ./ruleset/soop.yaml
+    path: ./ruleset/soop.list
     interval: 86400
     format: text
   Instagram:
