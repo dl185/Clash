@@ -470,6 +470,7 @@ rule-providers:
     type: http
   OpenAi:
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/OpenAI/OpenAI.list
+    path: ./ruleset/OpenAi.list
     behavior: classical
     interval: 86400
     format: text
@@ -518,12 +519,14 @@ rule-providers:
     type: http
   YouTube:
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/YouTube/YouTube.list
+    path: ./ruleset/YouTube.list
     behavior: classical
     interval: 86400
     format: text
     type: http
   Netflix:
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Netflix/Netflix.list
+    path: ./ruleset/Netflix.list
     behavior: classical
     interval: 86400
     format: text
@@ -544,6 +547,7 @@ rule-providers:
     type: http
   Bilibili:
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/BiliBili/BiliBili.list
+    path: ./ruleset/Bilibili.list
     behavior: classical
     interval: 86400
     format: text
