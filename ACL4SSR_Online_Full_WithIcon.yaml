@@ -359,7 +359,7 @@ rule-providers:
     path: ./ruleset/soop.yaml
     interval: 86400
     format: text
-    Instagram:
+  Instagram:
     type: http
     behavior: classical
     format: yaml
