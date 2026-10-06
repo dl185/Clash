@@ -362,7 +362,6 @@ rule-providers:
   Instagram:
     type: http
     behavior: classical
-    format: list
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Instagram/Instagram.list
     path: ./ruleset/instagram.list
     interval: 86400
