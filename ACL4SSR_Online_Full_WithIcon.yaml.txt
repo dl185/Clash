@@ -82,6 +82,7 @@ proxy-groups:
       - 手动切换
       - DIRECT
   - name: Instagram
+    icon: https://cdn.jsdelivr.net/gh/dl185/TV@main/instagram.png
     type: select
     proxies:
     - 节点选择
