@@ -81,6 +81,14 @@ proxy-groups:
       - 韩国节点
       - 手动切换
       - DIRECT
+  - name: Instagram
+    type: select
+    proxies:
+    - 节点选择
+    - 香港节点
+    - 日本节点
+    - 狮城节点
+    - 美国节点
   - name: 奈飞视频
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Netflix.png
     type: select
@@ -352,6 +360,9 @@ rule-providers:
     path: ./ruleset/soop.yaml
     interval: 86400
     format: text
+  Instagram:
+    type: http
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Instagram/Instagram.list
   LocalAreaNetwork:
     url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/LocalAreaNetwork.list
     path: ./ruleset/LocalAreaNetwork.list
@@ -572,6 +583,7 @@ rule-providers:
 
 rules:
   - "RULE-SET,Soop,Soop直播"
+  - RULE-SET,Instagram,Instagram
   - "RULE-SET,LocalAreaNetwork,全球直连"
   - "RULE-SET,UnBan,全球直连"
   - "RULE-SET,BanAD,广告拦截"
