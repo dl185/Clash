@@ -133,6 +133,12 @@ proxy-groups:
       - 韩国节点
       - 手动切换
       - DIRECT
+  - name: Soop直播
+    icon: https://cdn.jsdelivr.net/gh/dl185/TV@main/SOOP.png
+    type: select
+    proxies:
+      - DIRECT
+      - 手动切换
   - name: 国内媒体
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/DomesticMedia.png
     type: select
@@ -311,12 +317,6 @@ proxy-groups:
     url: "https://www.gstatic.com/generate_204"
     interval: 300
     tolerance: 50
-  - name: Soop直播
-    icon: https://cdn.jsdelivr.net/gh/dl185/TV@main/SOOP.png
-    type: select
-    proxies:
-      - DIRECT
-      - 手动切换
   - name: 奈飞节点
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Netflix.png
     include-all: true
