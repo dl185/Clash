@@ -347,6 +347,7 @@ proxy-groups:
       - OpenAi
       - AI-UNHK
       - 油管视频
+      - lovense  
       - 奈飞视频
       - 巴哈姆特
       - 哔哩哔哩
@@ -611,7 +612,7 @@ rule-providers:
     type: http
 rules:
   - RULE-SET,Soop,Soop直播
-  - RULE-SET,lovense
+  - RULE-SET,lovense,lovense
   - RULE-SET,Instagram,Instagram
   - RULE-SET,LocalAreaNetwork,全球直连
   - RULE-SET,UnBan,全球直连
