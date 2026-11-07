@@ -85,7 +85,7 @@ proxy-groups:
   - name: Instagram
     type: select
     proxies:
-      - 节点���择
+      - 节点选择
       - 香港节点
       - 日本节点
       - 美国节点
@@ -374,9 +374,9 @@ rule-providers:
     format: text
   Lovense:
     type: http
+    behavior: classical
     url: https://raw.githubusercontent.com/dl185/app/refs/heads/main/Lovense.list
     path: ./ruleset/Lovense.list
-    behavior: classical
     interval: 86400
     format: text
   LocalAreaNetwork:
@@ -598,8 +598,8 @@ rule-providers:
     type: http
 rules:
   - RULE-SET,Soop,Soop直播
-  - RULE-SET,Instagram,Instagram
   - RULE-SET,Lovense,节点选择
+  - RULE-SET,Instagram,Instagram
   - RULE-SET,LocalAreaNetwork,全球直连
   - RULE-SET,UnBan,全球直连
   - RULE-SET,BanAD,广告拦截
