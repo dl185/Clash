@@ -38,6 +38,19 @@ proxy-groups:
       - 香港节点
       - 手动切换
       - DIRECT
+  - name: Lovense
+    type: select
+    proxies:
+      - 节点选择
+      - 自动选择
+      - 狮城节点
+      - 台湾节点
+      - 日本节点
+      - 美国节点
+      - 韩国节点
+      - 香港节点
+      - 手动切换
+      - DIRECT
   - name: OpenAi
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Bot.png
     type: select
@@ -331,6 +344,7 @@ proxy-groups:
       - 手动切换
       - 自动选择
       - 电报消息
+      - Lovense
       - OpenAi
       - AI-UNHK
       - 油管视频
@@ -597,8 +611,10 @@ rule-providers:
     format: text
     type: http
 rules:
+  - DOMAIN-SUFFIX,lovense.club,DIRECT
+  - DOMAIN-KEYWORD,lovense.club,DIRECT
   - RULE-SET,Soop,Soop直播
-  - RULE-SET,Lovense,节点选择
+  - RULE-SET,Lovense,Lovense
   - RULE-SET,Instagram,Instagram
   - RULE-SET,LocalAreaNetwork,全球直连
   - RULE-SET,UnBan,全球直连
