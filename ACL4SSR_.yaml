@@ -221,6 +221,19 @@ proxy-groups:
       - 日本节点
       - 韩国节点
       - 手动切换
+  - name: lovense
+    icon: 
+    type: select
+    proxies:
+      - DIRECT
+      - 节点选择
+      - 美国节点
+      - 香港节点
+      - 台湾节点
+      - 狮城节点
+      - 日本节点
+      - 韩国节点
+      - 手动切换
   - name: 网易音乐
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Netease_Music.png
     type: select
@@ -362,6 +375,13 @@ rule-providers:
     type: http
     behavior: classical
     url: https://raw.githubusercontent.com/KeterCo/ClashRules/refs/heads/main/Soop.list
+    path: ./ruleset/soop.yaml
+    interval: 86400
+    format: text
+  lovense
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/dl185/app/refs/heads/main/Lovense.list
     path: ./ruleset/soop.yaml
     interval: 86400
     format: text
@@ -591,6 +611,7 @@ rule-providers:
     type: http
 rules:
   - RULE-SET,Soop,Soop直播
+  - RULE-SET,lovense
   - RULE-SET,Instagram,Instagram
   - RULE-SET,LocalAreaNetwork,全球直连
   - RULE-SET,UnBan,全球直连
